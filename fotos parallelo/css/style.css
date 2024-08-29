@@ -1,0 +1,39 @@
+/* Estiliza a lista de navegação para exibir os itens em linha */
+nav ul {
+    display: flex; /* Define o layout como flexível */
+    flex-direction: row; /* Alinha os itens da lista horizontalmente */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o preenchimento padrão do navegador */
+}
+
+/* Estiliza os itens da lista de navegação */
+nav ul li {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    height: 125px; /* Define a altura dos itens da lista */
+    padding: 0 25px 0 0; /* Adiciona preenchimento à direita e remove o preenchimento à esquerda */
+}
+
+/* Estiliza o fundo dos itens da lista quando o mouse está sobre eles */
+nav ul li:hover {
+    background: #444444; /* Define a cor de fundo para um cinza escuro ao passar o mouse */
+}
+
+/* Estiliza a área de navegação */
+nav {
+    height: 125px; /* Define a altura da área de navegação */
+    max-width: 1480px; /* Define a largura máxima da área de navegação */
+    min-width: 1080px; /* Define a largura mínima da área de navegação */
+    background-color: black; /* Define a cor de fundo como preto */
+}
+
+/* Estiliza o logotipo dentro da área de navegação */
+nav #logo img {
+    height: 75px; /* Define a altura da imagem do logotipo */
+    margin: 25px; /* Adiciona margem em torno da imagem do logotipo */
+    float: left; /* Alinha a imagem do logotipo à esquerda */
+}
+
+/* Estiliza o menu principal dentro da área de navegação */
+nav #main-menu {
+    float: right; /* Alinha o menu principal à direita */
+}
